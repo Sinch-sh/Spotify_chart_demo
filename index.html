@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Step 5-bonus</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    
+        <h1 class="header">
+            Distribution of Top Songs over the duration 2009 - 2021
+        </h1>
+        <div
+            id="ChartDiv"
+            style="width: 80%; height: 300px; margin: 0 auto"
+        ></div>
+        
+        <input type="text" placeholder="Choose a Year between 2009 - 2021 and Press Enter" id="yearInput" id="yearInput" value="" onchange="tableData()"/>
+        
+        <div id="tableDiv">
+            <table id="tableId">
+                <tr>
+                    <th>Index</th>
+                    <th>Title</th>
+                    <th>Artist</th>
+                </tr>
+            </table>
+        </div>
+        <div
+            id="barChartDiv"
+            style="width: 50%; height: 300px; margin: 0 auto"
+        ></div>
+    </body>
+    <script src="https://code.jscharting.com/latest/jscharting.js"></script>
+    <script src="index.js"></script>
+</html>
